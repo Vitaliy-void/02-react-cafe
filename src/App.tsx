@@ -1,23 +1,6 @@
-// import { useState } from 'react'
-// import CafeInfo from './components/CafeInfo/CafeInfo'
-// import './App.css'
-
-// function App() {
-//   const [count, setCount] = useState(0)
-
-//   return (
-//     <>
-//       { <CafeInfo /> }
-      
-//     </>
-//   )
-// }
-
-// export default App
-
 
 import { useState, useMemo, useCallback } from 'react';
-import css from './App.module.css'; // створи порожній або скопіюй з репо стилів (клас .app)
+import css from './App.module.css';
 import CafeInfo from './components/CafeInfo/CafeInfo';
 import VoteOptions from './components/VoteOptions/VoteOptions';
 import VoteStats from './components/VoteStats/VoteStats';
